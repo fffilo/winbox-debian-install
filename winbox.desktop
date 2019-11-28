@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Winbox
+Comment=Configuration tool for RouterOS
+Exec=/opt/winbox/winbox.sh
+Icon=/opt/winbox/winbox.svg
+Categories=Application;Network;RemoteAccess
+Type=Application
+Keywords=winbox;mikrotik
+Terminal=false

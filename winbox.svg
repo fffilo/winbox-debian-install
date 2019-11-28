@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" version="1.1">
+  <defs>
+    <linearGradient id="linearGradientBlue">
+      <stop style="stop-color:#0395fa;" offset="0" />
+      <stop style="stop-color:#265bc1;" offset="1" />
+    </linearGradient>
+    <linearGradient id="linearGradientGray">
+      <stop style="stop-color:#ccc;" offset="0" />
+      <stop style="stop-color:#eee;" offset="0.5" />
+      <stop style="stop-color:#ccc;" offset="1" />
+    </linearGradient>
+    <linearGradient xlink:href="#linearGradientBlue" id="linearGradientCircle" gradientUnits="userSpaceOnUse" x1="100%" y1="0%" x2="0%" y2="100%" />
+    <linearGradient xlink:href="#linearGradientGray" id="linearGradientMoonSmall" gradientUnits="userSpaceOnUse" x1="24" y1="14" x2="50" y2="40" />
+    <linearGradient xlink:href="#linearGradientGray" id="linearGradientMoonBig" gradientUnits="userSpaceOnUse" x1="16" y1="16" x2="48" y2="48" />
+  </defs>
+    <circle cx="32" cy="32" r="30" fill="#eee" />
+    <circle cx="32" cy="32" r="28" fill="url(#linearGradientCircle)" />
+    <path fill="url(#linearGradientMoonSmall)" d="m 24.073247,14.673257 c 1.715793,12.55685 11.297099,22.53229 24.971198,24.36635 -15.074247,5.02717 -30.007717,-9.45817 -24.971198,-24.36635 z" />
+    <path fill="url(#linearGradientMoonBig)" d="m 15.454349,17.264257 c 2.294076,16.39511 15.689092,29.1625 31.53802,30.32835 -20.29886,7.33071 -38.0182158,-13.75987 -31.53802,-30.32835 z" />
+</svg>
