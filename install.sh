@@ -11,8 +11,7 @@ OPT="/opt/winbox"
 BIN="/usr/local/bin"
 LNK="${HOME}/.local/share/applications"
 EXE="https://mt.lv/winbox"
-#SRC="https://raw.githubusercontent.com/fffilo/winbox-debian-install/master"
-SRC="http://localhost:8000"
+SRC="https://raw.githubusercontent.com/fffilo/winbox-debian-install/master"
 
 # download
 mkdir -p "${OPT}"
